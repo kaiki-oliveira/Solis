@@ -3,10 +3,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column ;
 }
 
 main{
@@ -29,18 +25,17 @@ main div{
     margin: auto;
     padding: 10px;
     min-width: 250px;
-    min-height: 150px;
-    border: solid yellow;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 10px 0;
 }
-label {
+#divNome label {
     font-size: 30px;
 }
-#nome, select{
+#nome{
     background-color:  rgb(142, 153, 248) ;
     border:none;
     border-radius: 5px;
