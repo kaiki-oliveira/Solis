@@ -47,6 +47,17 @@ label {
     max-width: 250px;
     height: 30px;
     margin: 5px;
+    outline: none;
 
+
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(142, 153, 248) ;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 
 }
