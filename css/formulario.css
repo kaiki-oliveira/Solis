@@ -45,3 +45,13 @@ main div{
 
 
 }
+#custo{
+    background-color:  rgb(142, 153, 248) ;
+    border:none;
+    border-radius: 5px;
+    max-width: 250px;
+    height: 30px;
+    margin: 5px;
+
+
+}
