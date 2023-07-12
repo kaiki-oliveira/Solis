@@ -16,6 +16,8 @@
     <h1>Solis</h1>
     <h2>Um siatema de otimização para o seu serviço</h2>
     <main>
+        <a href="index.html" id="but"><button>voltar</button></a>
+
         <div id="divForm">
             <div id="divNome">
                 <label for="nome">Digite seu nome ou nome da empresa</label>
@@ -43,18 +45,22 @@
             </div>
             <div>
                 <label for="custo">Qual o custo medio da sua conta de energia?</label>
-                <input type="number" name="custo" id="custo">
+                <input type="number" name="custo" id="custo" placeholder="Custo médio">
             </div>
             <div>
                 <label for="consumo">Qual o seu consumo médio de energia? (em kwh)</label>
-                <input type="number" name="consumo" id="consumo">
+                <input type="number" name="consumo" id="consumo" placeholder="Consumo médio">
             </div>
             <div>
                 <label for="taxa">Qual a taxa minima da sua conta de energia?</label>
-                <input type="number" name="taxa" id="taxa">
+                <input type="number" name="taxa" id="taxa" placeholder="Taxa minima">
+            </div>
+            <div>
+                <input type="button" value="Analisar" id="btn" onclick="analisar()">
             </div>
         </div>
         
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
